@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="mad.pawan.inclass.pizzastore.OrderActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_yourOrder"
+        android:id="@+id/textView_order"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/text_base"
+            android:id="@+id/textView_base"/>
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/text_basePrice"
+            android:id="@+id/textView_basePrice"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/text_toppings"
+            android:id="@+id/textView_toppings"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/text_toppingsPrice"
+            android:id="@+id/textView_toppingsPrice"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/text_toppingsDisplay"
+        android:id="@+id/textView_toppingsDisplay"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/text_delivery"
+            android:id="@+id/textView"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/text_deliveryCost"
+            android:id="@+id/textView_deliveryPrice"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/text_total"
+            android:id="@+id/textView_total"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/text_totalCost"
+            android:id="@+id/textView_totalCost"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_finish"
+        android:id="@+id/button_finish" android:layout_gravity="center_horizontal"/>
+</LinearLayout>

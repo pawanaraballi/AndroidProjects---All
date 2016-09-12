@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#e9e5e5">
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView_dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView_convoflname"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView_Call"
+            android:src="@android:drawable/stat_sys_phone_call" />
+
+    </LinearLayout>
+</LinearLayout>

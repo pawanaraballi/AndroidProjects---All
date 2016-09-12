@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "508009205215",
+    "firebase_url": "https://myexpensetracker-39b48.firebaseio.com",
+    "project_id": "myexpensetracker-39b48",
+    "storage_bucket": "myexpensetracker-39b48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508009205215:android:a800f0493969fbff",
+        "android_client_info": {
+          "package_name": "pawanaraballi.com.myexpensetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508009205215-7jdkbsjfb1t6rie0bbvbjkgkdojclvi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7tkM8FCpRjq-mSbJSS8pkMXz8SO0Rmb0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

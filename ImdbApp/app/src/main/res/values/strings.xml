@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ImdbApp</string>
+    <string name="imageView_main">imageView_main</string>
+    <string name="button_Search">Search IMDb.com</string>
+    <string name="editText_MovieName">Find Movies</string>
+    <string name="MovieName">Movie Name</string>
+    <string name="ReleaseDate">Release Date:</string>
+    <string name="Genre">Genre:</string>
+    <string name="Director">Director:</string>
+    <string name="Actors">Actors:</string>
+    <string name="ImageMovie">ImageView</string>
+    <string name="FinishButton">Finish</string>
+    <string name="ForwardButton">ForwardButton</string>
+    <string name="PreviousButton">PreviousButton</string>
+    <string name="Plot">Plot:</string>
+
+</resources>

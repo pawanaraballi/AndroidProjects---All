@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Class2</string>
+    <string name="action_settings">Settings</string>
+    <string name="click_me_button">Click Me</string>
+
+    <string name="label_name_header">I am Heading</string>
+    <string name="Cancel">button_cancel</string>
+
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+    </string-array>
+</resources>

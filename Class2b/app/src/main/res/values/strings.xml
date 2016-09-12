@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Class2b</string>
+    <string name="meters">Meters :</string>
+    <string name="result">Results :</string>
+    <string name="toinch">To Inches</string>
+    <string name="tofeet">To feet</string>
+    <string name="tomile">To Mile</string>
+    <string name="clearall">Clear All</string>
+    <string name="convert">Convert</string>
+</resources>

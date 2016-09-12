@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InClass13_800935601</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="items">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>cafe</item>
+        <item>parking</item>
+    </string-array>
+</resources>

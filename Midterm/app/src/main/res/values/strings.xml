@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Midterm</string>
+    <string-array name="citynames">
+        <item>Chicago,IL</item>
+        <item>Atlanta,GA</item>
+        <item>Charlotte,NC</item>
+        <item>San Francisco,CA</item>
+        <item>Seattle,WA</item>
+        <item>Orlando,FL</item>
+    </string-array>
+    <string name="submitbutton">Submit</string>
+    <string name="viewmarkedvenues">View Marked Venues</string>
+    <string name="clearall">Clear All</string>
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TicketReservation</string>
+    <string name="et_name">Name</string>
+    <string name="et_source">Source</string>
+    <string name="et_destination">Destination</string>
+    <string name="trip">Trip :</string>
+    <string name="roundtrip">Round-Trip</string>
+    <string name="onetrip">One-Way</string>
+    <string name="departuredate">Departure Date</string>
+    <string name="returningdate">Returning Date</string>
+    <string name="time">Time.....</string>
+    <string name="selectticket">Select Ticket</string>
+    <string name="save">Save</string>
+    <string name="itenary">Itenary</string>
+    <string name="finish">Finish</string>
+    <string name="departue">Departure</string>
+    <string name="returnitenary">Return</string>
+    <string name="bt_createticket">Create Ticket</string>
+    <string name="bt_editTicket">Edit Ticket</string>
+    <string name="bt_deleteticket">Delete Ticket</string>
+    <string name="bt_viewticket">View Ticket</string>
+    <string name="bt_finish">Finish</string>
+    <string name="et_phonecall">Customer Care: 999-999-9999</string>
+    <string name="bt_printSummary">Print Summary</string>
+    <string name="selectbutton">Select Ticket</string>
+    <string name="deletebutton">Delete</string>
+    <string name="cancelbutton">Cancel</string>
+    <string name="finishbutton">Finish</string>
+    <string name="rewindbutton">rewind</string>
+    <string name="fastrewindbutton">fastrewind</string>
+    <string name="forwardbutton">forwardbutton</string>
+    <string name="fastforwardbutton">fastforward</string>
+</resources>

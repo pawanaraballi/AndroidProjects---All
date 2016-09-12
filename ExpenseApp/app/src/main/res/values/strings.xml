@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ExpenseApp</string>
+    <string name="et_email">Email</string>
+    <string name="et_password">Password</string>
+    <string name="bt_login">Login</string>
+    <string name="bt_create">Create New Account</string>
+    <string name="bt_signup">Sign Up</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="ed_fullName">Full Name</string>
+    <string name="tv_expensedetail">Expense Detail</string>
+    <string name="tv_name">Name</string>
+    <string name="tv_cat">Category</string>
+    <string name="tv_amount">Amount</string>
+    <string name="tv_date">Date</string>
+
+
+    <string name="delete_expense">Delete Expense</string>
+
+    <string name="text_header">Add An Expense</string>
+    <string name="text_subheader">Expense Name</string>
+    <string name="text_categoryheader">Category</string>
+    <string name="text_amount">Amount</string>
+    <string name="text_date">Date</string>
+    <string name="expenseButton">Add Expense</string>
+    <string-array name="category_array">
+        <item>Select Category</item>
+        <item>Groceries</item>
+        <item>Invoice</item>
+        <item>Transportation</item>
+        <item>Shopping</item>
+        <item>Rent</item>
+        <item>Trips</item>
+        <item>Utilities</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string name="add_expense">Add Expense</string>
+    <string name="logout">Log Out</string>
+
+</resources>

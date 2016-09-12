@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Computer Calculator</string>
+    <string name="budget">Budget ( $ )</string>
+    <string name="memory">Memory</string>
+    <string name="storage">Storage</string>
+    <string name="accessories">Accessories</string>
+    <string name="mouse">Mouse</string>
+    <string name="flashdrive">Flash Drive</string>
+    <string name="delivery">Delivery</string>
+    <string name="coolingpad">Cooling Pad</string>
+    <string name="carryingcase">Carrying Case</string>
+    <string name="tips">Tips %</string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
+    <string name="price">Price: </string>
+    <string name="defaultprice">$0.00</string>
+    <string name="yourstatus">Your Status:</string>
+    <string name="enter_dollar_amount">Enter Dollar Amount</string>
+    <string name="gb2">2GB</string>
+    <string name="gb4">4GB</string>
+    <string name="gb8">8GB</string>
+    <string name="gb16">16GB</string>
+    <string name="gb250">250GB</string>
+    <string name="gb500">500GB</string>
+    <string name="gb750">750GB</string>
+    <string name="tb1">1TB</string>
+</resources>

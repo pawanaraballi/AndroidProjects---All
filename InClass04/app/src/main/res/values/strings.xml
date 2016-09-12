@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">InClass04</string>
+    <string name="button_async">Generate Password (Async Task)</string>
+    <string name="button_thread">Generate Password (Thread)</string>
+    <string name="checkbox_number">Numbera</string>
+    <string name="checkbox_upperletter">Uppercase Letters</string>
+    <string name="checkbox_lowercase">Lowercase Letters</string>
+    <string name="checkbox_specialcharacter">Special Characters</string>
+    <string-array name="passwordlength_array">
+        <item>Select Password Length</item>
+        <item>8-12</item>
+        <item>13-17</item>
+        <item>18-22</item>
+    </string-array>
+</resources>

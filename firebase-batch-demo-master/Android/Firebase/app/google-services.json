@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "928113927725",
+    "project_id": "testapp-4f5f9"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928113927725:android:d3e926a29bb17aac",
+        "android_client_info": {
+          "package_name": "com.batch.labs.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYY7pmnYh1fRHRAr9xD8eUxquhbIqrLvk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

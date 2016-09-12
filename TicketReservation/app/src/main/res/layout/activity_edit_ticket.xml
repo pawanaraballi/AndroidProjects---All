@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ticketreservation.hw_2.group5.com.ticketreservation.EditTicket">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_editticketselectticket"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/selectticket" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_editticketname"
+        android:text="@string/et_name"
+        android:inputType="text"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button_editticketselectticket"
+        android:layout_alignEnd="@+id/button_editticketselectticket"
+        android:layout_marginTop="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_edittextsource"
+        android:text="@string/et_source"
+        android:inputType="text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editText_editticketname"
+        android:layout_alignRight="@+id/button_editticketselectticket" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_editticketdestination"
+        android:text="@string/et_destination"
+        android:inputType="text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editText_edittextsource"
+        android:layout_alignRight="@+id/button_editticketselectticket" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/trip"
+        android:id="@+id/textView_trip"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText_editticketdestination"
+        android:layout_alignRight="@+id/button_editticketselectticket" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup_trip"
+        android:layout_below="@+id/textView_trip"
+        android:layout_alignRight="@+id/button_editticketselectticket"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onetrip"
+            android:id="@+id/radioButton_editticketoneway"
+            android:checked="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/roundtrip"
+            android:id="@+id/radioButton_editticketroundtrip"
+            android:checked="false"
+            android:layout_below="@+id/radioButton_editticketoneway"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_editticketdeparturedate"
+        android:text="@string/departuredate"
+        android:inputType="date"
+        android:layout_below="@+id/radioGroup_trip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_editticketdeparturetime"
+        android:text="@string/time"
+        android:inputType="time"
+        android:layout_below="@+id/radioGroup_trip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_editticketreturningdate"
+        android:text="@string/returningdate"
+        android:inputType="date"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"
+        android:layout_below="@+id/editText_editticketdeparturetime"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/editText_editticketdeparturetime"
+        android:layout_toStartOf="@+id/editText_editticketdeparturetime" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_editticketreturningtime"
+        android:text="@string/time"
+        android:inputType="time"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/editText_editticketreturningdate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_editticketsave"
+        android:text="@string/save"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

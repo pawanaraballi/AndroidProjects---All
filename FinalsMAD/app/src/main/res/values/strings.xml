@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FinalsMAD</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="enteraddress">Enter Address</string>
+    <string name="zoomtofit">Zoom to Fit</string>
+    <string name="clearFav">Clear Favourites</string>
+</resources>

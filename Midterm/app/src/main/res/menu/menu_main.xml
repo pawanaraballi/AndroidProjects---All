@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_addcity"
+        android:title="@string/viewmarkedvenues"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_clearsavedcity"
+        android:title="@string/clearall"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+</menu>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">StayInTouchFragmentsApp</string>
+
+    <string name="stayintouchsignup">Stay In Touch (Sign up)</string>
+    <string name="userfirstlastname">User First Last Name</string>
+    <string name="email">Email</string>
+    <string name="phoneno">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="stayintouchlogin">Stay In Touch (Login)</string>
+    <string name="login">Login</string>
+    <string name="createnewuser">Create New User</string>
+    <string name="title_activity_login1">Stay In Touch (Login)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+    <string name="entermessage">Enter Message</string>
+
+    <string name="flname">Name</string>
+    <string name="update">Update</string>
+
+</resources>

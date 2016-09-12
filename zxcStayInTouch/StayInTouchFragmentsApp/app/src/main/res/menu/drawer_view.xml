@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_zero_fragment"
+            android:title="">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView_ViewContactName_menu"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageView_ViewContactdp_menu"
+            android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+
+        </item>
+        <item
+            android:id="@+id/nav_contact_fragment"
+            android:title="Contacts" />
+        <item
+            android:id="@+id/nav_conversation_fragment"
+            android:title="Conversations" />
+        <item
+            android:id="@+id/nav_archive_fragment"
+            android:title="Archived" />
+        <item
+            android:id="@+id/nav_setting_fragment"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout_fragment"
+            android:title="Log Out" />
+        <item
+            android:id="@+id/nav_exit_fragment"
+            android:title="Exit" />
+    </group>
+
+</menu>

@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_Search"
+            android:layout_weight="4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/button_Search"
+            android:layout_weight="1"
+            android:onClick="OnSearch" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:id="@+id/button_Type"
+            android:layout_weight="1"
+            android:onClick="ChangeType" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="339dp"
+        android:layout_height="match_parent"
+        tools:context="group5.com.demomaps.MapsActivity">
+
+    </fragment>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/imageButton_ZoomIn"
+                android:src="@android:drawable/arrow_up_float"
+                android:onClick="onZoom" />
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/imageButton_ZoomOut"
+                android:src="@android:drawable/arrow_down_float"
+                android:onClick="onZoom" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Place Picker"
+                android:id="@+id/button_PlacePicker"
+                android:onClick="OnPlacePickerClicked"
+                android:nestedScrollingEnabled="false" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Place Photos"
+                android:id="@+id/button_PlacePhotos"
+                android:onClick="PlacePhotos" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
